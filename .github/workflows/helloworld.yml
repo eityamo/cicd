@@ -5,5 +5,5 @@ on: [push]
 jobs:
   sample:
     name: Hello World Job
-    runs-on: ubuntu-katest
+    runs-on: ubuntu-latest
       - run: echo "Hello World !"
